@@ -1,11 +1,11 @@
 # Analisis exploratorio sobre disparidades regionales en salud de Argentina
 
-##Objetivo del Proyecto
+## Objetivo del Proyecto
 
 El objetivo de este trabajo será realizar un analisis de las disparidades regionales en la salud.    
 Se analizará por provincias y por regiones si existen diferencias significativas en la prevalencia de enfermedades crónicas no transmisibles como diabetes e hipertensión y las causas que llevan a estas diferencias (si existieran).
 
-##Origen de los datos
+## Origen de los datos
 
 Para el análisis se utilizarán los datos de la "Encuesta Nacional de Factores de Riesgo" realizada por el INDEC a adulos mayores de 18 años en Argentina.  
 Para el análisis actual se utilizarán los resultados del año 2018:   
