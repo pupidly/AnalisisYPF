@@ -1,0 +1,6 @@
+# Ignorar archivos temporales 
+*.log 
+*.tmp 
+# Ignorar carpetas innecesarias 
+__pycache__/ 
+.ipynb_checkpoints/ 
