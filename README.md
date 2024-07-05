@@ -3,7 +3,7 @@
 ## Objetivo del Proyecto
 
 El objetivo de este trabajo será realizar un analisis de las disparidades regionales en la salud.    
-Se analizará por provincias y por regiones si existen diferencias significativas en la prevalencia de enfermedades crónicas no transmisibles como diabetes e hipertensión y las causas que llevan a estas diferencias (si existieran).
+Se analizará por regiones si existen diferencias significativas en la prevalencia de enfermedades crónicas no transmisibles como diabetes, hipertensión y colesterol y las causas que llevan a estas diferencias (si existieran) en dichas regiones.
 
 ## Origen de los datos
 
