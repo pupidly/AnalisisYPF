@@ -26,11 +26,11 @@ Para el análisis actual se utilizarán los resultados del año 2018:
 
 ### Tercer Pre-entrega
 
-Se debe aclarar que para esta nueva pre-entrega se realizó un nuevo análisis exploratorio con las correcciones sugeridas en la revisión de la pre-entrega 2 y orientando el análisis a los objetivos buscados.
+Se debe aclarar que para esta nueva pre-entrega se realizó un nuevo análisis exploratorio con las correcciones sugeridas en la revisión de la pre-entrega 2 y orientando el análisis a los objetivos buscados por lo que las notebooks de la pre-entrega 2 quedan desestimadas para este trabajo.
+
 Para esta etapa se crearon 4 notebooks diferentes:
 
 1. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, etc.
 2. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
 3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. También se analiza la proporción de los datos luego del procesamiento de la etapa anterior
-4. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. Este modelo luego se mejora por hiperparámetros
-5. entrega3_RegLin.ipynb: Se ajusta un modelo de regresion linear en la bpusqueda de un mejor modelo.
+4. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. A este modelo luego se mejoran los hiperparámetros mediante grid search
