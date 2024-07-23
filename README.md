@@ -33,4 +33,4 @@ Para esta etapa se crearon 4 notebooks diferentes:
 2. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
 3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. También se analiza la proporción de los datos luego del procesamiento de la etapa anterior
 4. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. Este modelo luego se mejora por hiperparámetros
-5. entrega3_SVM.ipynb: Se ajusta un modelo de support vector machine para probar un mejor modelo.
+5. entrega3_RegLin.ipynb: Se ajusta un modelo de regresion linear en la bpusqueda de un mejor modelo.
