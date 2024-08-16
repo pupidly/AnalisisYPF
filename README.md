@@ -30,7 +30,24 @@ Se debe aclarar que para esta nueva pre-entrega se realizó un nuevo análisis e
 
 Para esta etapa se crearon 4 notebooks diferentes:
 
-1. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, etc.
+1. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, se realiza escalado y codificado de columnas, etc.
 2. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
 3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. También se analiza la proporción de los datos luego del procesamiento de la etapa anterior
 4. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. A este modelo luego se mejoran los hiperparámetros mediante grid search
+
+
+### Cuarta Pre-entrega
+
+El objetivo de esta pre-entrega es la aplicación de un algoritmo No supervisado.
+Se eligieron dos algoritmos de clusterización. El análisis busca agrupar en clusters los datos (sin tener en cuenta las columnas objetivo del análisis de la etapa anterior) y se compararán los grupos obtenidos con las regiones de forma de determinar si las regiones son realmente importantes en la agrupación de los datos.
+
+Para esta etapa se reutilizan los siguientes archivos:
+
+1. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, se realiza escalado y codificado de columnas, etc.
+2. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
+3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. 
+
+Se crean las siguientes notebooks:
+
+1. entrega4_KMEANS.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo KMEANS para clusterización 
+4. entrega4_DBScan.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo DBScan para clusterización
