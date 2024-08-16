@@ -51,3 +51,5 @@ Se crean las siguientes notebooks:
 
 1. entrega4_KMEANS.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo KMEANS para clusterización 
 4. entrega4_DBScan.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo DBScan para clusterización
+
+Se eliminan notebooks de entregas 2 y 3
