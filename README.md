@@ -21,7 +21,7 @@ Para el análisis actual se utilizarán los resultados del año 2018:
 
 ### Segunda Pre-entrega
 
-1. entrega2.ipynb: notebook con análisis exploratorio de los datos que se presentó como preentrega 2
+1. entrega2.ipynb: notebook con análisis exploratorio de los datos que se presentó como preentrega 2 -> será corregida de acuerdo a los comentarios en la notebook "analisis_descriptivo"
 2. df_friesgo_reduc.csv: csv generado luego de la limpieza de datos en la preentrega 2
 
 ### Tercer Pre-entrega
@@ -32,7 +32,7 @@ Para esta etapa se crearon 4 notebooks diferentes:
 
 1. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, se realiza escalado y codificado de columnas, etc.
 2. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
-3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. También se analiza la proporción de los datos luego del procesamiento de la etapa anterior
+3. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. También se analiza la proporción de los datos luego del procesamiento de la etapa anterior (r)
 4. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. A este modelo luego se mejoran los hiperparámetros mediante grid search
 
 
@@ -53,3 +53,21 @@ Se crean las siguientes notebooks:
 4. entrega4_DBScan.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo DBScan para clusterización
 
 Se eliminan notebooks de entregas 2 y 3
+
+
+### ENTREGA FINAL
+Archivos completos:
+
+1. friesgo2018.txt:  dataset original resultado de la encuesta
+2. manual de encuesta.pdf: manual que explica como fueron adquiridos los datos y el significado de cada columna y valores
+3. Procesamiento_columnas.ipynb: notebook que elimina columnas innecesarias, renombra columnas, elimina filas con NAN, se realiza escalado y codificado de columnas, etc.
+4. friesgo_2018_reduc.csv: CSV generado a partir del procesamiento de columnas y utilizado como entrada para las notebooks siguientes
+5. analisis_descriptivo.ipynb: Se realizan analisis de los datos para ver si se observan diferencias entre las distintas enfermedades por region. 
+6. entrega2.ipynb: notebook con análisis exploratorio de los datos que se presentó como preentrega 2 -> será corregida de acuerdo a los comentarios en la notebook "analisis_descriptivo"
+7. entrega3_arbolDecision.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. A este modelo luego se mejoran los hiperparámetros mediante grid search
+8. entrega3_RegLog.ipynb: Se ajusta un modelo de arbol de decisión para determinar las causas que producen diferencias en las tres enfermedades analizadas por región. A este modelo luego se mejoran los hiperparámetros mediante grid search
+9. entrega4_KMEANS.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo KMEANS para clusterización 
+10. entrega4_DBScan.ipynb: Análisis de los objetivos exlpicados con la aplicación del algoritmo DBScan para clusterización
+11. Presentacion_final.PDF
+
+Se adjunta a continuación el enlace a la presentación: https://docs.google.com/presentation/d/1-slrN40WW6WPkBt69f3SyNhbir9JqFgxSxBLk8MCVKY/edit?usp=sharing
